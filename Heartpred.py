@@ -30,11 +30,9 @@ x_train,x_test,y_train,y_test=train_test_split(X_train,Y_train,test_size=0.25,ra
 #4.Hyper parameters for Support vector classification and Decision tree
 paramSvc={
 'kernel':['poly'],
-'C':[100,10,1.0],
-'gamma':[1,0.1]
+'C':[100,10,1.0,0.1,0.001],
+'gamma':[1,0.1,0.01,0.001,0.0001]
 }
-#,10,1.0,0.1,0.001
-#,0.1,0.01,0.001,0.0001
 #,'rbf','sigmoid'
 paramDt={
     'criterion':['gini','entropy'],
