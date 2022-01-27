@@ -37,7 +37,6 @@ paramSvc={
 paramDt={
     'criterion':['gini','entropy'],
     'splitter':['best','random'],
-    'max-depth':[100,1000,500,2000],
     'min_samples_split':[3,5,7,9,11]
 }
 #5.Gridsearch for best hyper params
